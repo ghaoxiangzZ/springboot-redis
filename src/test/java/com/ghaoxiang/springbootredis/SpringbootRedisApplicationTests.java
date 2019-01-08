@@ -21,10 +21,10 @@ public class SpringbootRedisApplicationTests {
 
 	@Test
 	public void testRedis() {
-		redisDao.setKey("name", "haha");
-		redisDao.setKey("age", "11");
+		redisDao.setKey("name", "ghaoxiangzZ");
+		redisDao.setKey("sex", "man");
 		logger.info(redisDao.getValue("name"));
-		logger.info(redisDao.getValue("age"));
+		logger.info(redisDao.getValue("sex"));
 	}
 }
 
